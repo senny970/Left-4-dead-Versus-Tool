@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Utils">
+      <UniqueIdentifier>{209f575d-2c64-4c67-87ea-47e0c0d4ac04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Features">
+      <UniqueIdentifier>{f1544ff2-9120-4af9-9f9e-28a74022e296}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\L4DVersusTool.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\L4DVersusTool.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\baseEntityOffset.h">
+      <Filter>Файлы заголовков\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\hooks.h">
+      <Filter>Файлы заголовков\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\winbase.h">
+      <Filter>Файлы заголовков\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\virtuals.h">
+      <Filter>Файлы заголовков\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Features\Bunnyhop.h">
+      <Filter>Файлы заголовков\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\SDKfix.h">
+      <Filter>Файлы заголовков\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Features\CameraHelper.h">
+      <Filter>Файлы заголовков\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Features\glow_outline_effect.h">
+      <Filter>Файлы заголовков\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Features\SkeletonESP.h">
+      <Filter>Файлы заголовков\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Features\HitBoxESP.h">
+      <Filter>Файлы заголовков\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Features\BoxESP.h">
+      <Filter>Файлы заголовков\Features</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
